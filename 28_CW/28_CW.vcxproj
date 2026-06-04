@@ -140,10 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="28_CW.cpp" />
+    <ClCompile Include="Printer.cpp" />
     <ClCompile Include="Scanner.cpp" />
+    <ClCompile Include="Xerox.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Printer.h" />
     <ClInclude Include="Scanner.h" />
+    <ClInclude Include="Xerox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
